@@ -1,0 +1,14 @@
+# ROS 2 workspace
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# Arquivos temporários
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações locais de editores
+.vscode/
