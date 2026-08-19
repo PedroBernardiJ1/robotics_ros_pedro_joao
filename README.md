@@ -12,9 +12,9 @@ Abaixo estão os links diretos para as documentações e códigos elaborados de 
 ### ⚙️ [Módulo: Docker](./Docker)
 Este módulo contém toda infraestrutura do ambiente virtual.
 
-* 📄 [robot.dockerfile](./Docker/robot.dockerfile)
-* 📁 [scripts](./Docker/scripts)
-* 📁 [config]((./Docker/config)
+* 📄 [robot.dockerfile](./docker/robot.dockerfile)
+* 📁 [scripts](./docker/scripts)
+* 📁 [config]((./docker/config)
 
 ### 🤖 [Módulo: ROS](./ros_ws)
 Este módulo contém todo workspace de desenvolvimento do ROS.
@@ -27,7 +27,7 @@ Este módulo contém todo workspace de desenvolvimento do ROS.
 Abaixo estão os links rápidos para as documentações específicas de cada módulo e subprojeto desenvolvido.
 
 ### Módulo de Infraestrutura (Docker)
-* 📁 [Lista 1 - TEMA LISTA 1](./Docker/???)
+* 📁 [Lista 1 - TEMA LISTA 1](./docker/???)
 
 ### Módulo de Desenvolvimento (ROS)
 Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão adicionados abaixo:
