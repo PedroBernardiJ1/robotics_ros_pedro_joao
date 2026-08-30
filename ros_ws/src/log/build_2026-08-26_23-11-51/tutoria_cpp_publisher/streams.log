@@ -1,0 +1,21 @@
+[0.467s] Invoking command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_cpp_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_cpp_publisher
+[0.502s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.149s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.200s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.220s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.339s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.511s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.515s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.815s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[1.816s]   ament_cmake_symlink_install_targets() 'publisher_node' is not a target
+[1.816s] Call Stack (most recent call first):
+[1.816s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[1.816s]   CMakeLists.txt:17 (install)
+[1.817s] 
+[1.817s] [0m
+[1.817s] -- Configuring incomplete, errors occurred!
+[1.830s] Invoked command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_cpp_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_cpp_publisher

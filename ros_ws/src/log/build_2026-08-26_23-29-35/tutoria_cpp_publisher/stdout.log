@@ -1,0 +1,19 @@
+[100%] Built target publisher_node_area
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/lib/tutoria_cpp_publisher/publisher_node_area
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/tutoria_cpp_publisher
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/tutoria_cpp_publisher
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.sh
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.dsv
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.bash
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.sh
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.zsh
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.dsv
+-- Symlinking: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.dsv
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/packages/tutoria_cpp_publisher
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig.cmake
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig-version.cmake
+-- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.xml

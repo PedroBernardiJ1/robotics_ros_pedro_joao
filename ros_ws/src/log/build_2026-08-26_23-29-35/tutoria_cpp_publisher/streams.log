@@ -1,0 +1,23 @@
+[0.465s] Invoking command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_cpp_publisher -- -j12 -l12
+[0.678s] [100%] Built target publisher_node_area
+[0.721s] Invoked command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_cpp_publisher -- -j12 -l12
+[0.726s] Invoking command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_cpp_publisher
+[0.753s] -- Install configuration: ""
+[0.756s] -- Execute custom install script
+[0.758s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/lib/tutoria_cpp_publisher/publisher_node_area
+[0.767s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/tutoria_cpp_publisher
+[0.769s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/tutoria_cpp_publisher
+[0.771s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.sh
+[0.773s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.dsv
+[0.774s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.sh
+[0.776s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.dsv
+[0.777s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.bash
+[0.777s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.sh
+[0.777s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.zsh
+[0.777s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.dsv
+[0.778s] -- Symlinking: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.dsv
+[0.792s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/packages/tutoria_cpp_publisher
+[0.795s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig.cmake
+[0.798s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig-version.cmake
+[0.800s] -- Up-to-date symlink: /home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.xml
+[0.813s] Invoked command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_cpp_publisher

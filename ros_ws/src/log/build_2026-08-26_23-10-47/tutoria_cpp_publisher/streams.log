@@ -1,0 +1,36 @@
+[0.439s] Invoking command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_cpp_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_cpp_publisher
+[0.623s] -- The C compiler identification is GNU 13.3.0
+[0.790s] -- The CXX compiler identification is GNU 13.3.0
+[0.832s] -- Detecting C compiler ABI info
+[1.030s] -- Detecting C compiler ABI info - done
+[1.054s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.054s] -- Detecting C compile features
+[1.055s] -- Detecting C compile features - done
+[1.083s] -- Detecting CXX compiler ABI info
+[1.288s] -- Detecting CXX compiler ABI info - done
+[1.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.310s] -- Detecting CXX compile features
+[1.311s] -- Detecting CXX compile features - done
+[1.325s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.745s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.054s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.170s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.227s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.418s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.644s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.656s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.858s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.904s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.167s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake:67 (message):
+[3.168s]   ament_cmake_symlink_install_targets() 'publisher_node' is not a target
+[3.168s] Call Stack (most recent call first):
+[3.168s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake:37 (ament_cmake_symlink_install_targets)
+[3.168s]   CMakeLists.txt:17 (install)
+[3.168s] 
+[3.169s] [0m
+[3.169s] -- Configuring incomplete, errors occurred!
+[3.182s] Invoked command in '/home/host/ros_ws/src/build/tutoria_cpp_publisher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/host/ros_ws/src/install/python_nodes:/home/host/ros_ws/install/python_nodes:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_cpp_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_cpp_publisher

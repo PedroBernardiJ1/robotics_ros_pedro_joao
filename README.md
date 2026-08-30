@@ -17,7 +17,7 @@ Este módulo contém toda infraestrutura do ambiente virtual.
 * 📁 [config]((./docker/config)
 
 ### 🤖 [Módulo: ROS](./ros_ws)
-Este módulo contém todo workspace de desenvolvimento do ROS.
+Este módulo contém todos os workspaces de desenvolvimento do ROS.
 
 * 📁 [src](./ros_ws/src):
 
@@ -32,7 +32,9 @@ Abaixo estão os links rápidos para as documentações específicas de cada mó
 ### Módulo de Desenvolvimento (ROS)
 Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão adicionados abaixo:
 
-* 📁 [Projeto 1 - TÍTULO DO PROJETO](./ros_ws/src/sub_pasta_de_projeto_1)
+* 📁 [python_nodes](./ros_ws/src/python_nodes)
+* 📁 [publisher_cpp](./ros_ws/src/publisher_cpp)
+* 📁 [subscriber_cpp](./ros_ws/src/subscriber_cpp)
 
 ---
 

@@ -1,0 +1,25 @@
+[2.499s] Invoking command in '/home/host/ros_ws/src/build/python_nodes': PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ PYTHONPATH=/home/host/ros_ws/src/build/python_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/host/ros_ws/src/build/python_nodes/build --no-deps symlink_data
+[3.020s] running develop
+[3.237s] running egg_info
+[3.237s] creating python_nodes.egg-info
+[3.252s] writing python_nodes.egg-info/PKG-INFO
+[3.252s] writing dependency_links to python_nodes.egg-info/dependency_links.txt
+[3.252s] writing entry points to python_nodes.egg-info/entry_points.txt
+[3.252s] writing requirements to python_nodes.egg-info/requires.txt
+[3.253s] writing top-level names to python_nodes.egg-info/top_level.txt
+[3.253s] writing manifest file 'python_nodes.egg-info/SOURCES.txt'
+[3.270s] reading manifest file 'python_nodes.egg-info/SOURCES.txt'
+[3.270s] writing manifest file 'python_nodes.egg-info/SOURCES.txt'
+[3.281s] running build_ext
+[3.281s] Creating /home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages/python-nodes.egg-link (link to .)
+[3.281s] Installing publisher script to /home/host/ros_ws/src/install/python_nodes/lib/python_nodes
+[3.281s] Installing subscriber script to /home/host/ros_ws/src/install/python_nodes/lib/python_nodes
+[3.282s] 
+[3.282s] Installed /home/host/ros_ws/src/build/python_nodes
+[3.282s] running symlink_data
+[3.282s] creating /home/host/ros_ws/src/install/python_nodes/share/ament_index
+[3.282s] creating /home/host/ros_ws/src/install/python_nodes/share/ament_index/resource_index
+[3.282s] creating /home/host/ros_ws/src/install/python_nodes/share/ament_index/resource_index/packages
+[3.282s] symbolically linking /home/host/ros_ws/src/build/python_nodes/resource/python_nodes -> /home/host/ros_ws/src/install/python_nodes/share/ament_index/resource_index/packages
+[3.282s] symbolically linking /home/host/ros_ws/src/build/python_nodes/package.xml -> /home/host/ros_ws/src/install/python_nodes/share/python_nodes
+[3.322s] Invoked command in '/home/host/ros_ws/src/build/python_nodes' returned '0': PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ PYTHONPATH=/home/host/ros_ws/src/build/python_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/host/ros_ws/src/build/python_nodes/build --no-deps symlink_data

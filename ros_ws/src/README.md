@@ -1,6 +1,6 @@
 # 📂 Diretório de Pacotes ROS (`ros_ws/src`)
 
-Este diretório contém todo o código-fonte e os pacotes ROS 2 desenvolvidos para os sistemas autônomos e para as entregas de capacitação do Projeto Sonho. Ele atua como a área de trabalho central (workspace) para a criação e compilação de nós utilizando o sistema `colcon`.
+Este diretório contém todo o código-fonte e os pacotes ROS 2 desenvolvidos para as entregas de capacitação do Projeto Sonho. Ele atua como a área de trabalho central (workspace) para a criação e compilação de nós utilizando o sistema `colcon`.
 
 ---
 
@@ -8,8 +8,11 @@ Este diretório contém todo o código-fonte e os pacotes ROS 2 desenvolvidos pa
 
 Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de tarefas. Cada pasta listada abaixo agrupa pacotes com contextos semelhantes:
 
-*   📁 [sub_pasta_de_projeto1](./sub_pasta_de_projeto_1): (SUBSTITUIR "Módulo de integração de sensores", por exemplo)
-    *   📦 [pacote_entrega_1](./pacote_entrega_1): (SUBSTITUIR "Nó responsável por ler os dados do laser scan", por exemplo)
+*   📁 [python_nodes](./python_nodes): Nós publsiher e subscriber implementados na Aula 3 de ROS, em Python
+*   📁 [publisher_cpp](./publisher_cpp): Nó publisher implementado na Aula 3 de ROS, em C++
+*   📁 [subscriber_cpp](./subscriber_cpp): Nó subscriber implementado na Aula 3 de ROS, em C++
+*   📁 [tutoria_cpp_publisher](./tutoria_cpp_publisher): Nó publisher ("/publisher_node_area") implementado na Tutoria Referente à Aula 3 para calcular a área de um círculo, em C++
+*   📁 [python_tutoria_node](./python_tutoria_node): Nó subscriber ("/publisher_node_area") e publisher ("/publisher_volume") implementado na Tutoria Referente à Aula 3 para receber a área calculada do círculo, definir uma altura e calcular o volume de um cilindro, em Python
 
 ---
 

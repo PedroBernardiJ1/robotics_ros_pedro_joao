@@ -1,0 +1,1 @@
+/home/host/ros_ws/src/build/tutoria_cpp_publisher/ament_cmake_core/tutoria_cpp_publisherConfig-version.cmake

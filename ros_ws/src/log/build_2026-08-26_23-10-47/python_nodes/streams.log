@@ -1,0 +1,18 @@
+[2.210s] Invoking command in '/home/host/ros_ws/src/build/python_nodes': PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ PYTHONPATH=/home/host/ros_ws/src/build/python_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/host/ros_ws/src/build/python_nodes/build --no-deps symlink_data
+[2.685s] running develop
+[2.908s] running egg_info
+[2.932s] writing python_nodes.egg-info/PKG-INFO
+[2.933s] writing dependency_links to python_nodes.egg-info/dependency_links.txt
+[2.933s] writing entry points to python_nodes.egg-info/entry_points.txt
+[2.933s] writing requirements to python_nodes.egg-info/requires.txt
+[2.933s] writing top-level names to python_nodes.egg-info/top_level.txt
+[2.974s] reading manifest file 'python_nodes.egg-info/SOURCES.txt'
+[2.975s] writing manifest file 'python_nodes.egg-info/SOURCES.txt'
+[2.998s] running build_ext
+[2.998s] Creating /home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages/python-nodes.egg-link (link to .)
+[2.999s] Installing publisher script to /home/host/ros_ws/src/install/python_nodes/lib/python_nodes
+[3.000s] Installing subscriber script to /home/host/ros_ws/src/install/python_nodes/lib/python_nodes
+[3.000s] 
+[3.000s] Installed /home/host/ros_ws/src/build/python_nodes
+[3.000s] running symlink_data
+[3.053s] Invoked command in '/home/host/ros_ws/src/build/python_nodes' returned '0': PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ PYTHONPATH=/home/host/ros_ws/src/build/python_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/host/ros_ws/src/install/python_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/host/ros_ws/src/build/python_nodes/build --no-deps symlink_data

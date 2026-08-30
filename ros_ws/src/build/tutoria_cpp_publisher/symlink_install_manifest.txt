@@ -1,0 +1,16 @@
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/lib/tutoria_cpp_publisher/publisher_node_area
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/package_run_dependencies/tutoria_cpp_publisher
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/parent_prefix_path/tutoria_cpp_publisher
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.sh
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/ament_prefix_path.dsv
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.sh
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/environment/path.dsv
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.bash
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.sh
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.zsh
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/local_setup.dsv
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.dsv
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/ament_index/resource_index/packages/tutoria_cpp_publisher
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig.cmake
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/cmake/tutoria_cpp_publisherConfig-version.cmake
+/home/host/ros_ws/src/install/tutoria_cpp_publisher/share/tutoria_cpp_publisher/package.xml

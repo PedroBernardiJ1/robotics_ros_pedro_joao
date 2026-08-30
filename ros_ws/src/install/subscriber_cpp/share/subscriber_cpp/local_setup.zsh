@@ -1,0 +1,1 @@
+/home/host/ros_ws/src/build/subscriber_cpp/ament_cmake_environment_hooks/local_setup.zsh
