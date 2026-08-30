@@ -1,1 +1,0 @@
-/home/host/ros_ws/src/build/tutoria_cpp_publisher/ament_cmake_environment_hooks/local_setup.sh
