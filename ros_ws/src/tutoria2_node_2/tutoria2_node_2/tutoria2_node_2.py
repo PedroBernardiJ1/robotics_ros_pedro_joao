@@ -52,7 +52,7 @@ class Node_python (Node):
 
         # Publicando
         self.point_out_publisher_.publish(point_out_)
-        self.get_logger().info(f"Ponto (X = {point_out_.x}, Y = {point_out_.y}, Z = {point_out_.z}")
+        self.get_logger().info(f"Ponto (X = {point_out_.x}, Y = {point_out_.y}, Z = {point_out_.z})")
         
 def main():
 
