@@ -13,6 +13,8 @@ Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de ta
 *   📁 [subscriber_cpp](./subscriber_cpp): Nó subscriber implementado na Aula 3 de ROS, em C++
 *   📁 [tutoria_cpp_publisher](./tutoria_cpp_publisher): Nó publisher ("/publisher_node_area") implementado na Tutoria Referente à Aula 3 para calcular a área de um círculo, em C++
 *   📁 [python_tutoria_node](./python_tutoria_node): Nó subscriber ("/publisher_node_area") e publisher ("/publisher_volume") implementado na Tutoria Referente à Aula 3 para receber a área calculada do círculo, definir uma altura e calcular o volume de um cilindro, em Python
+* 📁 [tutoria2_node_1](./ros_ws/src/tutoria2_node_1): Nó subscriber ("/point_in") e publisher ("/distance" e "/orientation") implementado na Tutoria Referente à Aula 4 para receber um ponto (x, y, z) e, a partir dele, calcular e publicar a distância da origem e as orientações theta e phi, em C++
+* 📁 [tutoria2_node_2](./ros_ws/src/tutoria2_node_2): Nó subscriber ("/distance" e "/orientation") e publisher ("/point_out") implementado na Tutoria Referente à Aula 4 para receber a distância e os ângulos theta e phi e, a partir deles, converter novamente para o ponto original dado ("/point_in"), em Python
 
 ---
 

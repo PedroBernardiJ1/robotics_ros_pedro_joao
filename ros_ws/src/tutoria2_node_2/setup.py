@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'python_nodes'
+package_name = 'tutoria2_node_2'
 
 setup(
     name=package_name,
@@ -14,9 +14,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='host',
-    maintainer_email='host@todo.todo',
+    maintainer_email='pedro.bernardi.j@gmail.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='MIT',
     extras_require={
         'test': [
             'pytest',
@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'first_node = python_nodes.first_node:main',
-            'subscriber = python_nodes.subscriber:main'
+            "tutoria2_node_2 = tutoria2_node_2.tutoria2_node_2:main"
         ],
     },
 )
