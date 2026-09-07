@@ -8,13 +8,21 @@ Este diretório contém todo o código-fonte e os pacotes ROS 2 desenvolvidos pa
 
 Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de tarefas. Cada pasta listada abaixo agrupa pacotes com contextos semelhantes:
 
-*   📁 [python_nodes](./python_nodes): Nós publsiher e subscriber implementados na Aula 3 de ROS, em Python
-*   📁 [publisher_cpp](./publisher_cpp): Nó publisher implementado na Aula 3 de ROS, em C++
-*   📁 [subscriber_cpp](./subscriber_cpp): Nó subscriber implementado na Aula 3 de ROS, em C++
-*   📁 [tutoria_cpp_publisher](./tutoria_cpp_publisher): Nó publisher ("/publisher_node_area") implementado na Tutoria Referente à Aula 3 para calcular a área de um círculo, em C++
-*   📁 [python_tutoria_node](./python_tutoria_node): Nó subscriber ("/publisher_node_area") e publisher ("/publisher_volume") implementado na Tutoria Referente à Aula 3 para receber a área calculada do círculo, definir uma altura e calcular o volume de um cilindro, em Python
-* 📁 [tutoria2_node_1](./ros_ws/src/tutoria2_node_1): Nó subscriber ("/point_in") e publisher ("/distance" e "/orientation") implementado na Tutoria Referente à Aula 4 para receber um ponto (x, y, z) e, a partir dele, calcular e publicar a distância da origem e as orientações theta e phi, em C++
-* 📁 [tutoria2_node_2](./ros_ws/src/tutoria2_node_2): Nó subscriber ("/distance" e "/orientation") e publisher ("/point_out") implementado na Tutoria Referente à Aula 4 para receber a distância e os ângulos theta e phi e, a partir deles, converter novamente para o ponto original dado ("/point_in"), em Python
+*   📁 [python_nodes](./python_nodes): Nós publsiher e subscriber implementados na Aula 3 de ROS, em Python;
+
+*   📁 [publisher_cpp](./publisher_cpp): Nó publisher implementado na Aula 3 de ROS, em C++;
+
+*   📁 [subscriber_cpp](./subscriber_cpp): Nó subscriber implementado na Aula 3 de ROS, em C++;
+
+*   📁 [tutoria_cpp_publisher](./tutoria_cpp_publisher): Nó publisher ("/publisher_node_area") implementado na Tutoria Referente à Aula 3 para calcular a área de um círculo, em C++;
+
+*   📁 [python_tutoria_node](./python_tutoria_node): Nó subscriber ("/publisher_node_area") e publisher ("/publisher_volume") implementado na Tutoria Referente à Aula 3 para receber a área calculada do círculo, definir uma altura e calcular o volume de um cilindro, em Python;
+
+*   📁 [tutoria2_node_1](./tutoria2_node_1): Nó subscriber ("/point_in") e publisher ("/distance" e "/orientation") implementado na Tutoria Referente à Aula 4 para receber um ponto (x, y, z) e, a partir dele, calcular e publicar a distância da origem e as orientações theta e phi, em C++;
+
+*   📁 [tutoria2_node_2](./tutoria2_node_2): Nó subscriber ("/distance" e "/orientation") e publisher ("/point_out") implementado na Tutoria Referente à Aula 4 para receber a distância e os ângulos theta e phi e, a partir deles, converter novamente para o ponto original dado ("/point_in"), em Python;
+
+*   📁 [projeto1_publisher_subscriber](./projeto1_publisher_subscriber): Nó subscriber ("/goal" e "/robot_position") e publisher ("/cmd_vel") que recebe um ponto de destino (Vector3) e uma pose e orientação atuais (Pose) para retornar comandos de velocidade linear e angular até chegar ao destino;
 
 ---
 

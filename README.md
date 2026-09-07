@@ -39,6 +39,7 @@ Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão a
 * 📁 [python_tutoria_node](./ros_ws/src/python_tutoria_node)
 * 📁 [tutoria2_node_1](./ros_ws/src/tutoria2_node_1)
 * 📁 [tutoria2_node_2](./ros_ws/src/tutoria2_node_2)
+* 📁 [projeto1_publisher_subscriber](./ros_ws/src/projeto1_publisher_subscriber)
 
 ---
 
