@@ -8,7 +8,7 @@ Este diretório contém todo o código-fonte e os pacotes ROS 2 desenvolvidos pa
 
 Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de tarefas. Cada pasta listada abaixo agrupa pacotes com contextos semelhantes:
 
-*   📁 [python_nodes](./python_nodes): Nós publsiher e subscriber implementados na Aula 3 de ROS, em Python;
+*   📁 [python_nodes](./python_nodes): Nós publisher e subscriber implementados na Aula 3 de ROS, em Python;
 
 *   📁 [publisher_cpp](./publisher_cpp): Nó publisher implementado na Aula 3 de ROS, em C++;
 
@@ -23,6 +23,10 @@ Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de ta
 *   📁 [tutoria2_node_2](./tutoria2_node_2): Nó subscriber ("/distance" e "/orientation") e publisher ("/point_out") implementado na Tutoria Referente à Aula 4 para receber a distância e os ângulos theta e phi e, a partir deles, converter novamente para o ponto original dado ("/point_in"), em Python;
 
 *   📁 [projeto1_publisher_subscriber](./projeto1_publisher_subscriber): Nó subscriber ("/goal" e "/robot_position") e publisher ("/cmd_vel") que recebe um ponto de destino (Vector3) e uma pose e orientação atuais (Pose) para retornar comandos de velocidade linear e angular até chegar ao destino;
+
+*   📁 [tutoria3_node1](./tutoria3_node1): Nó publisher ("/imu" e "/odom") que declara a velocidade angular do IMU em X, Y e Z e a covariância em Z da Odometria, em C++; 
+
+*   📁 [tutoria3_node2](./tutoria3_node2): Nó subscriber ("/imu" e "/odom") e publisher ("/imu_fundido") que calcula os pesos da Odom, IMU e declara a velocidade angular em Z de um novo IMU, em Python;
 
 ---
 
