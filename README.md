@@ -43,6 +43,10 @@ Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão a
 * 📁 [tutoria3_node_1](./ros_ws/src/tutoria3_node_1)
 * 📁 [tutoria3_node_2](./ros_ws/src/tutoria3_node_2)
 * 📁 [aula_6_robot_interfaces](./ros_ws/src/aula_6_robot_interfaces)
+* 📁 [tutoria4_custom_interfaces](./ros_ws/src/tutoria4_custom_interfaces)
+* 📁 [tutoria4_node_1](./ros_ws/src/tutoria4_node_1)
+* 📁 [tutoria4_node_2](./ros_ws/src/tutoria4_node_2)
+* 📁 [tutoria4_bringup](./ros_ws/src/tutoria4_bringup)
 
 ---
 

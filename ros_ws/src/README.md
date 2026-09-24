@@ -28,6 +28,14 @@ Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de ta
 
 *   📁 [aula_6_robot_interfaces](./aula_6_robot_interfaces): Nó de configuração das mensagens customizadas "Obstacle" e "Obstacles", implementado na Aula 6 de ROS;
 
+*   📁 [tutoria4_custom_interfaces](./tutoria4_custom_interfaces): Nó de configuração das mensagens customizadas "Diagnostico" e "Velocidade";
+
+*   📁 [tutoria4_node_1](./tutoria4_node_1): Nó publisher ("/velocidade") da Tutoria 4, em Python;
+
+*   📁 [tutoria4_node_2](./tutoria4_node_2): Nó subscriber ("/velocidade") e publisher ("/diagnostico") da Tutoria 4, em C++;
+
+*   📁 [tutoria4_bringup](./tutoria4_bringup): LaunchFile dos dois nós da Tutoria 4;
+
 ---
 
 ## 🛠️ Comandos Frequentes (Cheatsheet)
