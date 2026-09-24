@@ -10,7 +10,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     gedit \
     nano \
+    jq \
     build-essential \
+    tree \
     python3 \
     python3-pip \
     python3-colcon-common-extensions \
@@ -25,6 +27,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-jazzy-robot-state-publisher \
     ros-jazzy-joint-state-publisher \
     ros-jazzy-rviz2 \
+    ros-jazzy-rqt* \
+    ros-jazzy-rqt-common-plugins \
     ros-jazzy-launch \
     ros-jazzy-launch-ros \
     ros-jazzy-ros-gz \

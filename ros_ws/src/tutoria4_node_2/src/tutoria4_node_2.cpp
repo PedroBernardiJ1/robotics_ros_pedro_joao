@@ -12,8 +12,7 @@ using std::placeholders::_1;
 
 class tutoria4_node_2 : public rclcpp::Node{
 
-    private:  
-
+    private:
         
         // Subscriber at the topic /velocidade
         rclcpp::Subscription<tutoria4_custom_interfaces::msg::Velocidade>::SharedPtr velocidade_subscription_;
@@ -62,9 +61,7 @@ class tutoria4_node_2 : public rclcpp::Node{
                 diagnostico_.energia.z,
                 diagnostico_.ang_velocidade,
                 diagnostico_.historico_velocidade.back()
-            );
-            
-            
+            );    
         }
     
     public:

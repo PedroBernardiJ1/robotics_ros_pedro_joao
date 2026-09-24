@@ -4,17 +4,21 @@ FROM ros:jazzy
 # Evita que qualquer instalação peça uma interação com o usuário
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Etapa 2: Pacotes de sistema
+# Etapa 2: Pacotes de sistema (com terminal ZSH)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo \
     git \
     gedit \
     nano \
+    jq \
     build-essential \
+    tree \
     python3 \
     python3-pip \
     python3-colcon-common-extensions \
     python3-vcstool \
+    zsh \
+    curl \
   && rm -rf /var/lib/apt/lists/*
 
 # Etapa 3: Pacotes ROS
@@ -23,6 +27,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-jazzy-robot-state-publisher \
     ros-jazzy-joint-state-publisher \
     ros-jazzy-rviz2 \
+    ros-jazzy-rqt* \
+    ros-jazzy-rqt-common-plugins \
     ros-jazzy-launch \
     ros-jazzy-launch-ros \
     ros-jazzy-ros-gz \
