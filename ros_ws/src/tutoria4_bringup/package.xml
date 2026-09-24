@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>tutoria2_node_2</name>
-  <version>0.0.1</version>
-  <description>Nó 2 da Tutoria 2, em Python</description>
+  <name>tutoria4_bringup</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
   <maintainer email="pedro.bernardi.j@gmail.com">host</maintainer>
-  <license>MIT</license>
+  <license>TODO: License declaration</license>
+
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>tutoria4_custom_interfaces</exec_depend>
+  <exec_depend>tutoria4_node_1</exec_depend>
+  <exec_depend>tutoria4_node_2</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

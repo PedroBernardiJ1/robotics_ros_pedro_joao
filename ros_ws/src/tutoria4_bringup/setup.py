@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import setup
 
-package_name = 'tutoria3_bringup'
+package_name = 'tutoria4_bringup'
 
 setup(
     name=package_name,
@@ -11,13 +11,13 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
         ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['package.xml']), 
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Pedro Bernardi',
     maintainer_email='pedro.bernardi.j@gmail.com',
-    description='Lança o sistema da Tutoria 3: tutoria3_node_1 e tutoria3_node_2 juntos',
-    license='Apache-2.0',
+    description='Lança o sistema da Tutoria 4: tutoria4_node_1 e tutoria4_node_2 juntos',
+    license='TODO: License declaration',
 )

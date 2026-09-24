@@ -1,0 +1,3 @@
+geometry_msgs/Vector3 energia
+float64 ang_velocidade
+float64[] historico_velocidade

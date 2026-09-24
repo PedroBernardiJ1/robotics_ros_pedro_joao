@@ -3,13 +3,13 @@
 <package format="3">
   <name>tutoria3_bringup</name>
   <version>0.0.0</version>
-  <description>Lança o sistema da Tutoria 3: tutoria3_node1 e tutoria3_node2 juntos</description>
+  <description>Lança o sistema da Tutoria 3: tutoria3_node_1 e tutoria3_node_2 juntos</description>
   <maintainer email="pedro.bernardi.j@gmail.com">host</maintainer>
-  <license>TApache-2.0</license>
+  <license>Apache-2.0</license>
 
   <exec_depend>ros2launch</exec_depend>
-  <exec_depend>tutoria3_node1</exec_depend>
-  <exec_depend>tutoria3_node2</exec_depend>
+  <exec_depend>tutoria3_node_1</exec_depend>
+  <exec_depend>tutoria3_node_2</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

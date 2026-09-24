@@ -32,16 +32,17 @@ Abaixo estão os links rápidos para as documentações específicas de cada mó
 ### Módulo de Desenvolvimento (ROS)
 Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão adicionados abaixo:
 
-* 📁 [python_nodes](./ros_ws/src/python_nodes)
-* 📁 [publisher_cpp](./ros_ws/src/publisher_cpp)
-* 📁 [subscriber_cpp](./ros_ws/src/subscriber_cpp)
-* 📁 [tutoria_cpp_publisher](./ros_ws/src/tutoria_cpp_publisher)
-* 📁 [python_tutoria_node](./ros_ws/src/python_tutoria_node)
+* 📁 [aula_3_python_nodes](./ros_ws/src/aula_3_python_nodes)
+* 📁 [aula_3_publisher_cpp](./ros_ws/src/aula_3_publisher_cpp)
+* 📁 [aula_3_subscriber_cpp](./ros_ws/src/aula_3_subscriber_cpp)
+* 📁 [tutoria_node_1](./ros_ws/src/tutoria_node_1)
+* 📁 [tutoria_node_2](./ros_ws/src/tutoria_node_2)
 * 📁 [tutoria2_node_1](./ros_ws/src/tutoria2_node_1)
 * 📁 [tutoria2_node_2](./ros_ws/src/tutoria2_node_2)
 * 📁 [projeto1_publisher_subscriber](./ros_ws/src/projeto1_publisher_subscriber)
-* 📁 [tutoria3_node1](./ros_ws/src/tutoria3_node1)
-* 📁 [tutoria3_node2](./ros_ws/src/tutoria3_node2)
+* 📁 [tutoria3_node_1](./ros_ws/src/tutoria3_node_1)
+* 📁 [tutoria3_node_2](./ros_ws/src/tutoria3_node_2)
+* 📁 [aula_6_robot_interfaces](./ros_ws/src/aula_6_robot_interfaces)
 
 ---
 

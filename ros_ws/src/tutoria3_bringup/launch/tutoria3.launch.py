@@ -13,20 +13,21 @@ def generate_launch_description():
         description='Amplitude do Tomps.'
     )
 
-    tutoria3_node1 = Node(
-    package='tutoria3_node1',
-    executable='tutoria3_node1',
+    tutoria3_node_1 = Node(
+    package='tutoria3_node_1',
+    executable='tutoria3_node_1',
     output='screen',
     parameters=[{'amplitude_imu': amplitude_imu}]
     )
 
-    tutoria3_node2 = Node(
-    package='tutoria3_node2',
-    executable='tutoria3_node2',
+    tutoria3_node_2 = Node(
+    package='tutoria3_node_2',
+    executable='tutoria3_node_2',
     output='screen',
     )
 
     return LaunchDescription([
-        tutoria3_node1,
-        tutoria3_node2
+        declare_amplitude_imu,
+        tutoria3_node_1,
+        tutoria3_node_2
     ])

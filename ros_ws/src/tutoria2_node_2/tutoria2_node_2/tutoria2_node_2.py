@@ -4,7 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import Float64
 from geometry_msgs.msg import Vector3
 
-class Node_python (Node):
+class tutoria2_node_2 (Node):
 
     def __init__(self):
         super().__init__("tutoria2_node_2")
@@ -58,7 +58,7 @@ def main():
 
     rclpy.init()
 
-    node = Node_python()
+    node = tutoria2_node_2()
     rclpy.spin(node)
 
     node.destroy_node()

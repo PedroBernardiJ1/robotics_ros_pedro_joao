@@ -1,11 +1,15 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>tutoria2_node_2</name>
-  <version>0.0.1</version>
-  <description>Nó 2 da Tutoria 2, em Python</description>
+  <name>tutoria3_node_2</name>
+  <version>0.0.0</version>
+  <description>Nó 2 da Tutoria 3, em Python</description>
   <maintainer email="pedro.bernardi.j@gmail.com">host</maintainer>
-  <license>MIT</license>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>sensors_msgs</depend>
+  <depend>nav_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

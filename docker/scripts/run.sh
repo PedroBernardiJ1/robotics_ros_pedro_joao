@@ -15,6 +15,7 @@ docker run -it --rm \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e DISPLAY=$DISPLAY \
     -v $WORKSPACE_HOST:$WORKSPACE_CONTAINER \
+    -v ~/.zsh_history_ros:/home/host/.zsh_history \
     --privileged \
     --name $CONTAINER_NAME \
     $IMAGE_NAME:$IMAGE_TAG
