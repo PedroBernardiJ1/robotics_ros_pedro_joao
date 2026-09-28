@@ -11,12 +11,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gedit \
     nano \
     jq \
+    gdb \
     build-essential \
     tree \
     python3 \
     python3-pip \
     python3-colcon-common-extensions \
     python3-vcstool \
+    python3-rosdep \
     zsh \
     curl \
   && rm -rf /var/lib/apt/lists/*
@@ -40,6 +42,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-jazzy-tf-transformations \
     && rm -rf /var/lib/apt/lists/*
 
+# Inicializa o rosdep (precisa ser root). A imagem base ros:jazzy já vem com isso pronto, então só rodamos "rosdep init" se o arquivo ainda não existir.
+RUN [ -e /etc/ros/rosdep/sources.list.d/20-default.list ] || rosdep init
+
 # Etapa 4: Configuração do ambiente de usuário
 ARG USERNAME=host
 ARG USER_UID=1000
@@ -58,12 +63,12 @@ RUN set -eux; \
     echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" > "/etc/sudoers.d/${USERNAME}"; \
     chmod 0440 "/etc/sudoers.d/${USERNAME}"
 
-# Copiando bashrc para dentro do container
-COPY docker/config/bashrc /home/${USERNAME}/.bashrc
-
-# Troca de usuário
+# Troca de usuário OBRIGATÓRIA (antes de instalar o Bash)
 USER ${USERNAME}
 ENV HOME=/home/${USERNAME}
+
+# Copiando bashrc para dentro do container
+COPY docker/config/bashrc /home/${USERNAME}/.bashrc
 
 # Define qual é o diretório padrão de trabalho
 WORKDIR /home/${USERNAME}/ros_ws

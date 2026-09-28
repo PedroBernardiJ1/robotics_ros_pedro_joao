@@ -11,12 +11,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     gedit \
     nano \
     jq \
+    gdb \
     build-essential \
     tree \
     python3 \
     python3-pip \
     python3-colcon-common-extensions \
     python3-vcstool \
+    python3-rosdep \
     zsh \
     curl \
   && rm -rf /var/lib/apt/lists/*
@@ -39,6 +41,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-jazzy-joint-state-broadcaster \
     ros-jazzy-tf-transformations \
     && rm -rf /var/lib/apt/lists/*
+
+# Inicializa o rosdep (precisa ser root). A imagem base ros:jazzy já vem com isso pronto, então só rodamos "rosdep init" se o arquivo ainda não existir.
+RUN [ -e /etc/ros/rosdep/sources.list.d/20-default.list ] || rosdep init
 
 # Etapa 4: Configuração do ambiente de usuário
 ARG USERNAME=host

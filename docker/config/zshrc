@@ -110,25 +110,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/pedro/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/pedro/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/pedro/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/pedro/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+# (bloco de inicialização do conda removido: apontava pra /home/pedro/miniconda3,
+# que não existe dentro do container — sempre caía no "else" e só sujava o PATH)
 
 # Menu de complete no TAB
 zstyle ':completion:*' menu select
-autoload -Uz compinit
-compinit
+# (compinit não é chamado aqui de novo: o oh-my-zsh.sh já faz isso lá em cima, com cache por dia.
+# Chamar de novo sem cache é o mesmo trabalho em dobro, sem ganho nenhum.)
 
 # Busca inteligente no histórico
 bindkey '^[[A' history-beginning-search-backward
@@ -148,10 +136,6 @@ unsetopt hist_save_by_copy  # Proíbe o Zsh de criar ficheiros temporários (.ne
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Adicionando ao ROS
-source /opt/ros/jazzy/setup.zsh
-source /home/host/ros_ws/install/setup.zsh
-
 # Compatibilidade de autocompletar do Bash no Zsh
 autoload -U bashcompinit
 bashcompinit
@@ -166,3 +150,6 @@ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
 # Registo do Autocomplete (Atualizado para Ubuntu 24.04 / ROS 2 Jazzy)
 eval "$(register-python-argcomplete ros2)"
 eval "$(register-python-argcomplete colcon)"
+
+# Aliases curtos pro .vscode/ros.sh (rb, rt, rdep, rclean, rbp...)
+source /home/host/ros_ws/.vscode/ros.zsh
