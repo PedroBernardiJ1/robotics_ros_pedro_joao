@@ -1,0 +1,3 @@
+float64 uso
+uint32 memoria_total
+uint32 memoria_utilizada

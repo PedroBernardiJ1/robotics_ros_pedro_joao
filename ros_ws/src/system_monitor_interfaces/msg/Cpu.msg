@@ -1,0 +1,4 @@
+uint32 numero_cores
+float64 uso_medio_total_cpu
+float64[] uso_individual_core
+float64 temperatura

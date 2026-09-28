@@ -1,0 +1,4 @@
+std_msgs/Header header
+Cpu monitoramento_cpu
+Ram monitoramento_ram
+Disco monitoramento_disco

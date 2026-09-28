@@ -1,0 +1,3 @@
+float64 porcentagem_uso
+uint32 espaco_disponivel
+uint32 espaco_uso
