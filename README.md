@@ -49,6 +49,9 @@ Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão a
 * 📁 [tutoria4_bringup](./ros_ws/src/tutoria4_bringup)
 * 📁 [system_monitor_interfaces](./ros_ws/src/system_monitor_interfaces)
 * 📁 [system_monitor](./ros_ws/src/system_monitor)
+* 📁 [aula_7_custom_interfaces](./ros_ws/src/aula_7_custom_interfaces)
+* 📁 [aula_7_mathematics_operations](./ros_ws/src/aula_7_mathematics_operations)
+* 📁 [aula_7_physics_operations](./ros_ws/src/aula_7_physics_operations)
 
 ---
 

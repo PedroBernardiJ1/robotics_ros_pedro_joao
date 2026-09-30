@@ -40,6 +40,12 @@ Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de ta
 
 *   📁 [system_monitor](./system_monitor): Nó publisher ("/hardware_status") do Hackaton 1 de ROS/Python, em Python;
 
+*   📁 [aula_7_custom_interfaces](./aula_7_custom_interfaces): Nó de criação dos Serviços da Aula 7 ("AddTwoInts.srv" e "VectorDistance.srv")
+
+* 📁 [aula_7_mathematics_operations](./aula_7_mathematics_operations): Contém a implementação do serviço "AddTwoInts" a partir do nó cliente ("add_ints_cliente_node") e do nó servidor ("add_ints_server_node"), em C++;
+
+* 📁 [aula_7_physics_operations](./ros_ws/src/aula_7_physics_operations): Contém a implementação do serviço "VectorDistance" a partir do nó cliente ("vector_distance_cliente_node") e do nó servidor ("vector_distance_server_node"), em Python;
+
 ---
 
 ## 🛠️ Comandos Frequentes (Cheatsheet)
