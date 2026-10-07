@@ -1,7 +1,7 @@
 #include <memory>
 
 #include "rclcpp/rclcpp.hpp"
-#include "custom_interfaces/srv/add_two_ints.hpp"
+#include "aula_7_custom_interfaces/srv/add_two_ints.hpp"
 
 using namespace std::placeholders;
 
@@ -9,10 +9,10 @@ class MathematicsOperations : public rclcpp::Node{
 
     private:
 
-        rclcpp::Service<custom_interfaces::srv::AddTwoInts>::SharedPtr math_operations_server;
+        rclcpp::Service<aula_7_custom_interfaces::srv::AddTwoInts>::SharedPtr math_operations_server;
 
-        void msg_server_callback(const std::shared_ptr<custom_interfaces::srv::AddTwoInts::Request> request,
-                                std::shared_ptr<custom_interfaces::srv::AddTwoInts::Response> response){
+        void msg_server_callback(const std::shared_ptr<aula_7_custom_interfaces::srv::AddTwoInts::Request> request,
+                                std::shared_ptr<aula_7_custom_interfaces::srv::AddTwoInts::Response> response){
 
             response->sum = request->a + request->b;
             RCLCPP_INFO(this->get_logger(), "Requisição de soma: a = '%ld' e b = '%ld'", request->a, request->b); // '%ld' --> long decimal, int64 bits
@@ -22,7 +22,7 @@ class MathematicsOperations : public rclcpp::Node{
     public:
 
         MathematicsOperations(): Node("add_ints_server_node"){
-            math_operations_server = this->create_service<custom_interfaces::srv::AddTwoInts>(
+            math_operations_server = this->create_service<aula_7_custom_interfaces::srv::AddTwoInts>(
             "add_two_ints",
             std::bind(&MathematicsOperations::msg_server_callback, this,_1, _2)
             );

@@ -4,12 +4,12 @@
 // PARA IMPLEMENTAR COM CLASSE
 
 #include "rclcpp/rclcpp.hpp"
-#include "custom_interfaces/srv/add_two_ints.hpp"
+#include "aula_7_custom_interfaces/srv/add_two_ints.hpp"
 
 #include <memory>
 
-void msg_server_callback(const std::shared_ptr<custom_interfaces::srv::AddTwoInts::Request> request,
-                               std::shared_ptr<custom_interfaces::srv::AddTwoInts::Response> response)
+void msg_server_callback(const std::shared_ptr<aula_7_custom_interfaces::srv::AddTwoInts::Request> request,
+                               std::shared_ptr<aula_7_custom_interfaces::srv::AddTwoInts::Response> response)
 {
     response->sum = request->a + request->b;
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Requisicao de soma: a = '%ld' e b = '%ld'",
@@ -23,8 +23,8 @@ int main(int argc, char **argv)
 
     std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_ints_server_node");
 
-    rclcpp::Service<custom_interfaces::srv::AddTwoInts>::SharedPtr math_operations_server =
-        node->create_service<custom_interfaces::srv::AddTwoInts>("add_two_ints", &msg_server_callback);
+    rclcpp::Service<aula_7_custom_interfaces::srv::AddTwoInts>::SharedPtr math_operations_server =
+        node->create_service<aula_7_custom_interfaces::srv::AddTwoInts>("add_two_ints", &msg_server_callback);
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Servico add_two_ints pronto!");
 

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'python_nodes'
+package_name = 'aula_3_python_nodes'
 
 setup(
     name=package_name,
@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'publisher = python_nodes.first_node:main',
-            'subscriber = python_nodes.subscriber:main'
+            'publisher = aula_3_python_nodes.first_node:main',
+            'subscriber = aula_3_python_nodes.subscriber:main'
         ],
     },
 )

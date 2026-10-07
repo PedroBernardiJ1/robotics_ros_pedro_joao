@@ -4,7 +4,7 @@ import rclpy
 from geometry_msgs.msg import Vector3
 from rclpy.node import Node
 
-from custom_interfaces.srv import VectorDistance
+from aula_7_custom_interfaces.srv import VectorDistance
 
 class VectorDistanceClient(Node):
 

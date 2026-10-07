@@ -1,24 +1,33 @@
 cmake_minimum_required(VERSION 3.8)
-project(aula_7_mathematics_operations)
+project(aula_8_move_to_demo)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(aula_7_custom_interfaces REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(aula_8_robot_interfaces REQUIRED)
 
-add_executable(add_ints_server_node src/add_ints_server_node.cpp)
-ament_target_dependencies(add_ints_server_node rclcpp aula_7_custom_interfaces)
-
-add_executable(add_ints_cliente_node src/add_ints_cliente_node.cpp)
-ament_target_dependencies(add_ints_cliente_node rclcpp aula_7_custom_interfaces)
+# --- Nó em C++ ---
+add_executable(move_to_client src/move_to_client.cpp)
+ament_target_dependencies(move_to_client
+  rclcpp
+  rclcpp_action
+  geometry_msgs
+  aula_8_robot_interfaces
+)
 
 install(TARGETS
-  add_ints_server_node
-  add_ints_cliente_node
+  move_to_client
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# --- Nó em Python ---
+install(PROGRAMS
+  scripts/server_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

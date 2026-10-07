@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>python_nodes</name>
+  <name>aula_3_python_nodes</name>
   <version>0.0.1</version>
   <description>Python nodes</description>
   <maintainer email="pedro.bernardi.j@gmail.com">Pedro Bernardi</maintainer>

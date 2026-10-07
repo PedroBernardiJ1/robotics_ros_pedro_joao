@@ -44,7 +44,15 @@ Dentro desta pasta, os códigos estão divididos por subprojetos ou listas de ta
 
 *   📁 [aula_7_mathematics_operations](./aula_7_mathematics_operations): Contém a implementação do serviço "AddTwoInts" a partir do nó cliente ("add_ints_cliente_node") e do nó servidor ("add_ints_server_node"), em C++;
 
-*   📁 [aula_7_physics_operations](./ros_ws/src/aula_7_physics_operations): Contém a implementação do serviço "VectorDistance" a partir do nó cliente ("vector_distance_cliente_node") e do nó servidor ("vector_distance_server_node"), em Python;
+*   📁 [aula_7_physics_operations](./aula_7_physics_operations): Contém a implementação do serviço "VectorDistance" a partir do nó cliente ("vector_distance_cliente_node") e do nó servidor ("vector_distance_server_node"), em Python;
+
+*   📁 [tutoria5_custom_interfaces](./tutoria5_custom_interfaces): Nó de configuração do Serviço da Tutoria 5, "Fisica.srv";
+
+*   📁 [tutoria5_service_node](./tutoria5_service_node): Nó de implementação do serviço da Tutoria 5, a partir do "tutoria5_client_node.cpp" (nó do cliente, em C++) e do "tutoria5_server_node.cpp" (nó do servidor, em C++);
+
+*   📁 [aula_8_robot_interfaces](./aula_8_robot_interfaces): Nó de configuração da Action da Aula 8, "MoveTo.action";
+
+*   📁 [aula_8_move_to_demo](./aula_8_move_to_demo): Nó de implementação da action da Aula 8, a partir do "server_node.py" (nó do servidor, em Python) e do "move_to_client.cpp" (nó do cliente, em C++);
 
 ---
 

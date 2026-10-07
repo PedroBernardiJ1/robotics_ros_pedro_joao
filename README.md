@@ -52,6 +52,10 @@ Conforme os pacotes forem criados em ros_ws/src, seus respectivos links serão a
 * 📁 [aula_7_custom_interfaces](./ros_ws/src/aula_7_custom_interfaces)
 * 📁 [aula_7_mathematics_operations](./ros_ws/src/aula_7_mathematics_operations)
 * 📁 [aula_7_physics_operations](./ros_ws/src/aula_7_physics_operations)
+* 📁 [tutoria5_custom_interfaces](./ros_ws/src/tutoria5_custom_interfaces)
+* 📁 [tutoria5_service_node](./ros_ws/src/tutoria5_service_node)
+* 📁 [aula_8_robot_interfaces](./ros_ws/src/aula_8_robot_interfaces)
+* 📁 [aula_8_move_to_demo](./ros_ws/src/aula_8_move_to_demo)
 
 ---
 

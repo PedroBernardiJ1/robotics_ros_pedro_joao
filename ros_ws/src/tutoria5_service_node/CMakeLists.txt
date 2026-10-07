@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(aula_7_mathematics_operations)
+project(tutoria5_service_node)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,19 +8,18 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(aula_7_custom_interfaces REQUIRED)
+find_package(tutoria5_custom_interfaces REQUIRED)
 
-add_executable(add_ints_server_node src/add_ints_server_node.cpp)
-ament_target_dependencies(add_ints_server_node rclcpp aula_7_custom_interfaces)
+add_executable(tutoria5_server_node src/tutoria5_server_node.cpp)
+ament_target_dependencies(tutoria5_server_node rclcpp tutoria5_custom_interfaces)
 
-add_executable(add_ints_cliente_node src/add_ints_cliente_node.cpp)
-ament_target_dependencies(add_ints_cliente_node rclcpp aula_7_custom_interfaces)
+add_executable(tutoria5_client_node src/tutoria5_client_node.cpp)
+ament_target_dependencies(tutoria5_client_node rclcpp tutoria5_custom_interfaces)
 
 install(TARGETS
-  add_ints_server_node
-  add_ints_cliente_node
-  DESTINATION lib/${PROJECT_NAME}
-)
+  tutoria5_server_node
+  tutoria5_client_node
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

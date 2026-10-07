@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'physics_operations'
+package_name = 'aula_7_physics_operations'
 
 setup(
     name=package_name,
@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'vector_distance_server_node = physics_operations.vector_distance_server_node:main',
-            'vector_distance_cliente_node = physics_operations.vector_distance_cliente_node:main',
+            'vector_distance_server_node = aula_7_physics_operations.vector_distance_server_node:main',
+            'vector_distance_cliente_node = aula_7_physics_operations.vector_distance_cliente_node:main',
         ],
     },
 )

@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-from robot_interfaces.msg import Obstacle, Obstacles # Adicionado na Aula 6
+from aula_6_robot_interfaces.msg import Obstacle, Obstacles # Adicionado na Aula 6
 
 class FirstNode(Node):
     def __init__(self):

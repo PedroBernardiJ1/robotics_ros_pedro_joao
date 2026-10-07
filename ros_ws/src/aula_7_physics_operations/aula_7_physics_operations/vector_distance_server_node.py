@@ -3,7 +3,7 @@ import math
 import rclpy
 from rclpy.node import Node
 
-from custom_interfaces.srv import VectorDistance
+from aula_7_custom_interfaces.srv import VectorDistance
 
 class VectorDistanceServer(Node):
 

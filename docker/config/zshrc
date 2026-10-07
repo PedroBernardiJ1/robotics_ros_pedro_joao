@@ -148,9 +148,9 @@ source /home/host/ros_ws/install/setup.zsh
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
 
 # Registo do Autocomplete (Atualizado para Ubuntu 24.04 / ROS 2 Jazzy)
-eval "$(register-python-argcomplete3 ros2)"
-eval "$(register-python-argcomplete3 colcon)"
-eval "$(register-python-argcomplete3 rosdep)"
+eval "$(register-python-argcomplete ros2)"
+eval "$(register-python-argcomplete colcon)"
+eval "$(register-python-argcomplete rosdep)"
 
 # Aliases curtos pro .vscode/ros.sh (rb, rt, rdep, rclean, rbp...)
 source /home/host/ros_ws/.vscode/ros.zsh
